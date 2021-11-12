@@ -1,0 +1,806 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+#top-area{
+    background-color: #3f3f3f;
+    color: white;
+    height: 100%;
+    width: 100%;
+    /* background:rgb(41,36,113);
+    background: linear-gradient(11deg, rgba(41,36,113,1) 0%, rgba(0,87,255,1) 100%); */
+}
+
+#top-area-players-page, #top-area-performances-page, #top-area-contact-page {
+    background-color: #3f3f3f;
+    color: white;
+    height: auto;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+    
+ 
+}
+
+.main{
+    padding: 0;
+    margin: 0;
+}
+
+.padding{
+    padding-bottom: 2rem;
+}
+
+.topline{
+    height: auto;
+    width: 100%;
+    
+}
+
+
+#title{
+    padding: 30px;
+    font-size: 3em;
+    background: linear-gradient(122deg, rgba(30,38,172,1) 30%, rgba(242,255,0,1) 100%);
+    
+    font-family: 'Martel', serif;
+}
+
+#BF-band-logo{
+height: 4rem;
+padding-right: 1rem;
+}
+
+nav{
+    text-align: center;
+    width: 100%;
+   
+}
+
+nav ul{
+    display: inline-flex;
+    flex-direction: row;
+    text-align: center;
+    list-style: none;
+    font-size: medium;
+    margin-right: 50px;
+    
+}
+
+nav ul li{
+    padding: 1em;
+    
+}
+nav ul li a{
+    color: white;
+    
+}
+
+nav ul li a:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 2px 30px yellow;
+    
+}
+
+
+
+#english-flag{
+    margin: 0.3rem;
+}
+
+#welsh-flag{
+    margin: 0.3rem;
+}
+
+h3{
+    padding-bottom: 1rem;
+    text-align: center;
+    margin: auto;
+}
+
+h3{
+    font-size: 16px;
+}
+
+h4{
+    font-size: 12px;
+}
+
+#middle-area{
+    background-color: #3F3F3F;
+}
+
+#band-history{
+    background: url(/img/Band\ Logo\ transparent\ small.webp);
+    background-size: cover;
+}
+#band-history, #players-text, #performances-text, #carol-concert-text, #contact-text, #contact-info, #blog-text, #placeholder-text, .st-davids-text, #results-text{
+margin: 0 20vw 30px 20vw;
+}
+
+#placeholder-text{
+    padding: 80px;
+    height: auto;
+}
+
+#players-text, #performances-text, #carol-concert-text, #contact-text, #blog-text, .st-davids-text, #results-text{
+    font-size: small;
+    text-align: center;
+}
+
+#performances-text, #results-text{
+    padding-bottom: 20px;
+}
+
+#carol-concert-text, .st-davids-text{
+padding-top: 30px;
+}
+
+#carol-concert-video, .st-davids-video{
+    text-align: center;
+    padding-bottom: 20px;
+    width: 100%;
+    margin: auto;
+    background: linear-gradient(122deg, rgba(30,38,172,1) 30%, rgba(242,255,0,1) 100%); 
+    padding: 30px;
+}
+
+#hero-image{
+    margin-bottom: 10px;
+}
+
+#slides{
+    width: 50%;
+    margin: auto;
+}
+
+.carousel-inner img{
+   
+    width: 100%;
+    
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 5%;
+    color: white;
+    /* transform: translateY(-50%);
+    width: 50%; */
+    
+    
+}
+
+.carousel-caption h1{
+    text-shadow: 1px 1px 10px #000;
+}
+
+.my-4{
+    width: 100%;
+}
+
+.btn{
+    margin: 2rem;
+}
+
+#santa-trombone{
+    height: 4rem;
+    width: auto;
+}
+
+#button1{
+background: linear-gradient(122deg, rgba(30,38,172,1) 30%, rgba(242,255,0,1) 100%);
+}
+
+#players-gallery{
+    background-color: #3f3f3f;
+    
+}
+
+.section-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+
+.section-header{
+    background: linear-gradient(45deg, rgb(212, 173, 43) 0%, rgb(243, 255, 5) 100%);
+    border-radius: 10px;
+    width: 100%;
+    padding-top: 0;
+}
+
+.section-box{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#players-gallery h5{
+    /* margin-top: 50px; */
+    margin-left: 50px;
+}
+
+.player-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    width: 140px;
+    margin: 0.5em;
+    padding: 10px;
+    /* background-color: #3F3F3F; */
+    background: linear-gradient(11deg, rgba(41,36,113,1) 0%, rgb(16, 64, 160) 100%);  
+
+    color: white;
+    text-align: center;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    text-align: center;
+}
+
+.player-box figcaption{
+    font-size: small;
+    padding: 1em;
+    display: flex;
+}
+
+
+
+.player-box:hover{
+    transform: scale(1.8);
+}
+.player-picture{
+    width:80%;
+    margin: auto;
+}
+
+
+#contact-middle-area{
+    width: 80%;
+    margin: auto;
+  
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: flex-start;
+    justify-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+#contact-info{
+    width: 100%;
+    padding-right: 30px;
+}
+
+#map{
+    width: 480px;
+    height: 360px;
+}
+
+#blog-middle-area{
+    background: url(/img/Band\ Logo\ transparent\ small.webp);
+    background-size: cover;
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 40px;
+
+}
+
+.blog-title{
+    padding-bottom: 1rem;
+    text-align: center;
+    margin: auto;
+    font-size: 16px;
+}
+
+.blog-post{
+    margin-bottom: 40px;
+}
+#social-banner{
+    background: linear-gradient(122deg, rgba(30,38,172,1) 30%, rgba(242,255,0,1) 100%);
+    color: whitesmoke;
+    padding: 0.5em;
+    font-family: 'Martel', serif;
+    margin-bottom: 0;
+}
+#social-feeds{
+    text-align: center;
+}
+
+
+#results-section{
+    text-align: center;
+    
+}
+#results-table{
+    text-align: center;
+    width: 80%;
+    margin:  20px auto;
+}
+
+footer{
+    background-color: #3F3F3F;
+    color: #D5D5D5;
+    padding-top: 1.8rem;
+   
+}
+
+#footerLogo{
+    height: 2rem;
+    padding-right: 1rem;
+}
+footer h5{
+    padding: 1rem;
+}
+.find-us-here{
+    padding-top: 0px; 
+    padding-bottom: 0px; 
+    margin-bottom: 0;
+}
+
+.email-link{
+    color:blue;
+}
+
+hr.light{
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+hr.light100{
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+#socials{
+    margin-left: 1em;
+}
+
+#blog-page-socials{
+    margin-left: 1em;
+    text-align: center;
+}
+.fab{
+    font-size: 2rem;
+    padding-right: 0.3em;
+    transition: all 0.5s ease;
+    
+  }
+
+  .large-social{
+      font-size: 4rem;
+  }
+
+h2{
+    text-align: center;
+
+}
+#social-feeds{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #3f3f3f;
+    grid-column-gap: 3em;
+    padding: 3em;
+    max-width: 100%;
+    overflow: hidden;
+    
+}
+  .twitter-timeline{
+    width: 100%;
+    /* min-width: 180px; */
+    
+  }
+
+
+  #fb-inner, #fb-feed{
+      width: 100%;
+      border-radius: 5px; 
+      
+    }
+
+    #insta-feed{
+        
+        width: 100%;
+        min-width: 180px;
+    }
+#insta-header{
+    width: 100%;
+    border-radius: 5px;
+}
+  #insta-inner{
+      width: 100%;
+      height: 100%;
+      border-radius: 5px;
+      max-height: 660px;
+      min-height: 660px;
+      
+  }
+
+  #results-table{
+      font-size: 0.8rem;
+  }
+  
+
+#bottom-line{
+    background: linear-gradient(122deg, rgba(30,38,172,1) 30%, rgba(242,255,0,1) 100%);
+    
+}
+
+#copyright{
+    font-family: 'Martel', serif;
+}
+
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+    
+
+  }
+@media (max-width: 768px) {
+    #contact-middle-area{
+        text-align: center;
+        max-width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+        
+
+        
+        
+    }
+
+    #contact-info{
+        text-align: center;
+        margin: auto;
+        width: 90%;
+        font-size: 13px;
+        padding-right: 0;
+    }
+    #map{
+        width: 288px;
+        height: 216px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #social-feeds{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        background-color: #3f3f3f;
+        grid-column-gap: 1em;
+        padding: 1em;
+        max-width: 100%;
+        overflow: hidden;
+        
+    }
+
+    #twitter-feed{
+        width: 100%;
+    }
+
+    #facebook-feed{
+        width: 100%;
+    }
+
+    #fb-inner{
+        width: 100%;
+        
+    }
+
+    #insta-inner{
+        width: 100%;
+    }
+
+    #results-table{
+    font-size: 0.7em;
+    }
+}
+@media (max-width: 576px) {
+
+    #top-area{
+        background-color: #3f3f3f;
+        color: white;
+        height: auto;
+        /* background:rgb(41,36,113);
+        background: linear-gradient(11deg, rgba(41,36,113,1) 0%, rgba(0,87,255,1) 100%); */
+    }
+
+    #BF-band-logo{
+        height: 2.5rem;
+        padding-right: 1rem;
+        }
+        #santa-buttons{
+             display: grid;
+        grid-template-columns: 1fr 4fr 1fr;
+        grid-template-rows: 1;
+        justify-items: center;
+        align-items: center;
+        }
+        #santa-trombone{
+            margin: 1rem;
+            height: 2rem;
+            width: auto;
+        }
+    h1, #title{
+        padding: 30px;
+        font-size: 1.5em;
+    }
+
+    h2{
+        font-size: 1.2em;
+    }
+    #buttons{
+       
+        width: 100%;
+    }
+    #button1{
+        font-size: x-small;
+    }
+    #players-text{
+        text-align: center;
+    }
+    #history-subtitle{
+        font-size: medium;
+    }
+    #band-history, #players-text, #blog-text, #blog-middle-area, #carol-concert-text, #performances-text, .st-davids-text{
+        font-size: small;
+        margin: 0 10vw 20px 10vw;
+        }
+
+      
+        #blog-page-socials{
+            margin-left: 0em;
+        }
+   
+    #blog-middle-area h3{
+        font-size: medium;
+        padding-top: 10px;
+    }
+
+   
+    .large-social{
+        font-size: 2.5rem;
+    }
+
+    #social-feeds h2{
+        font-size: medium;
+    }
+
+    #social-feeds{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        background-color: #3f3f3f;
+        padding: 0.5em;
+        
+        justify-items: center;
+        
+    }
+
+    #twitter-feed{
+        padding-top: 10px;
+        width: 80%;
+    }
+
+    #facebook-feed{
+        padding-top: 10px;
+        width: 80%;
+    }
+
+    #fb-inner{
+        width: 100%;
+    }
+
+    #insta-feed{
+        padding-top: 10px;
+        width: 80%;
+    }
+    #insta-inner{
+        
+        width: 100%; 
+    }
+
+    #temp-social{
+        font-size: x-small;
+        margin: 0 10vw 20px 10vw;
+    }
+
+    nav ul{
+        display: inline-flex;
+        flex-direction: row;
+        text-align: center;
+        list-style: none;
+        font-size: x-small;
+        margin-right: 50px;
+        
+    }
+
+    nav ul li{
+        padding: 0.5em;
+    }
+
+    #slides{
+        width: 90%;
+        margin: auto;
+    }
+    
+    .player-box{
+        width: 90px;
+    }
+
+    .player-box figcaption{
+font-size: x-small;
+    }
+
+    #results-table{
+        font-size: 0.5em;
+    }
+
+
+    footer{
+        font-size: x-small;
+        padding: 0;
+    }
+
+    /* footer{
+       font-size: 0.8rem; 
+    } */
+
+    footer h5{
+        font-size: 16px;
+        padding: 0;
+    }
+    #copyright{
+        font-size: x-small;
+    }
+}
+
+@media (max-width: 320px) {
+    #map{
+        width: 245px;
+        height: 184px;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('img/mac.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+/*switch copied from w3schools*/
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 24px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: red;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px red;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(16px);
+    -ms-transform: translateX(16px);
+    transform: translateX(16px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  
+  /*end w3schools switch code*/
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/

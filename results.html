@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="A record of our historical contest results and performances.">
+    <title>Briton Ferry Silver Band - Contest Results</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/bf0c11a4ee.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Martel:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+    <div class="container-fluid main">
+        <div id="top-area-contact-page">
+            <div class="topline">
+                <span>
+
+                    <h1 id="title" class="text-center"> <img src="img/Band Logo small.png" alt="Briton Ferry Band Logo"
+                            class="img-fluid" id="BF-band-logo">Briton Ferry Silver Band</h1>
+                </span>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">About the band</a></li>
+                    <li><a href="performances.html">Performances</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="players.html">Meet the band</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+
+          
+
+            <br>
+
+            <p id="results-text">
+                Here you can see a table showing all of our contest results going back as far as 1913!  Thanks to <a href="https://brassbandresults.co.uk/">Brass Band Results</a> for compiling all this data - it's a small but fascinating slice of the band's history.
+            </p>
+
+        </div>
+<div id ="results-section"></div>
+        <!-- Start http://brassbandresults.co.uk/ embedding code v2 -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" type="text/javascript"></script>
+<table id="results-table">
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Contest</th>
+      <th>Position</th>
+      <th>Conductor</th>
+    </tr>
+  </thead>
+<tbody id="bbr-briton-ferry-band-results">
+</tbody>
+</table>
+<script type="text/javascript">
+function bbr_embed_briton_ferry_band_jsonp(data)
+{
+  var lTable = "";
+  for (var i=0; i<data.length; i++)
+  {
+    lTable += "<tr>";
+    lTable += "<td><a href='https://brassbandresults.co.uk/contests/" + data[i].contest_slug + "/" + data[i].date + "/' title='Click here to view full results for this contest on www.brassbandresults.co.uk' target='_blank'>" + data[i].date_display + "</a></td>";
+    lTable += "<td>" + data[i].contest_name + "</td>";
+    lTable += "<td>" + data[i].result + "</td>";
+    lTable += "<td><a href='https://brassbandresults.co.uk/people/" + data[i].conductor_slug + "/' title='Click here to view all results for this conductor on www.brassbandresults.co.uk' target='_blank'>" + data[i].conductor_name + "</a></td>";
+    lTable += "</tr>\n";
+  }
+  jQuery("#bbr-briton-ferry-band-results").html(lTable);
+}
+</script>
+<br/><font size="-3">Results provided by <a href="https://brassbandresults.co.uk/">https://brassbandresults.co.uk</a></font>
+<script src="https://brassbandresults.co.uk/embed/band/briton-ferry-band/results/2/" type="text/javascript"></script>
+<!-- End https://brassbandresults.co.uk/ embedding code v2 -->
+</div>
+
+
+<footer id="footer">
+    <div class="container-fluid">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <hr class="light">
+                <h3 class="find-us-here"><img id="footerLogo" src="img/Band Logo small.png"
+                        alt="Briton Ferry Band Logo">Find Us Here...</h3>
+                <hr class="light">
+                <p>info@britonferrysilverband.org.uk</p>
+                <p>07890 317624</p>
+                <p>Vernon Place, Briton Ferry</p>
+            </div>
+            <div class="col-md-4">
+                <hr class="light">
+                <h3>Rehearsal Times</h3>
+                <hr class="light">
+                <p>Sundays 19:30 - 21:30</p>
+                <p>Thursdays 19:30 - 21:30</p>
+            </div>
+            <div class="col-md-4">
+                <hr class="light">
+                <h3>Social Media Links</h3>
+                <hr class="light">
+                <p id="socials">
+                    <a id="facebook-share" href="https://www.facebook.com/groups/13923760124" alt="Briton Ferry Band on Facebook"><i class="fab fa-facebook-square"></i></a>
+                    <a id="tweet-quote" href="https://twitter.com/BritonFerryBand" alt="Briton Ferry Band on Twitter"><i class="fab fa-twitter-square"></i></a>
+                    <a id="insta" href="https://www.instagram.com/britonferrysilverband" alt="Briton Ferry Band on Instagram"><i class="fab fa-instagram-square"></i></a>
+                    <a id="youtube" href="https://www.youtube.com/channel/UC5BYoPQGzMFsnlMU925-e4A" alt="Briton Ferry Band on YouTube"><i class="fab fa-youtube-square"></i></a>
+                </p>
+                <p>Like & Follow Us Here!</p>
+            </div>
+
+            <div class="col-md-12" id="bottom-line">
+                <!-- <hr class="light100"> -->
+                <h4 id="copyright" class="text-center">&copy; Briton Ferry Silver Band 2020</h4>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    </div>
+
+
+
+
+
+</body>
+</html>
