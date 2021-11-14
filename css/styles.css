@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,400,500,700');
 
 #top-area{
     background-color: #3f3f3f;
@@ -192,6 +192,35 @@ padding-top: 30px;
 #button1{
 background: linear-gradient(122deg, rgba(30,38,172,1) 30%, rgba(242,255,0,1) 100%);
 }
+
+#performance-list{
+    text-align: left;
+}
+
+.gig{
+    width: 80%;
+    margin: auto;
+}
+
+.gig-date{
+    /* font-weight: 200; */
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+.gig-heading{
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.gig-address{
+    font-size: 0.9em;
+}
+
+.gig-text{
+    margin-top: 1em;
+    font-size: 0.9em;
+}
+
 
 #players-gallery{
     background-color: #3f3f3f;
