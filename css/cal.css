@@ -1,0 +1,27 @@
+:root{
+    --band-gradient: linear-gradient(122deg, rgba(30,38,172,1) 30%, rgba(242,255,0,1) 100%);
+}
+
+.cal {
+    display: inline-block;
+    border: .1px solid #CCCAC5;
+    background: var(--band-gradient);
+    width: 70px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 0.1em;
+  }
+  .cal .month {
+    height: 20px;
+    line-height: 20px;
+    font-size: 0.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #3F3F3F;
+    color: #FFF;
+  }
+  .cal .date {
+    font-size: 1.8rem;
+    color: #FFF;
+    line-height: 40px;
+  }
