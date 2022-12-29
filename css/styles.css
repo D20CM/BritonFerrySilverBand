@@ -3,8 +3,8 @@
 :root {
   --band-gradient: linear-gradient(
     122deg,
-    rgba(30, 38, 172, 1) 30%,
-    rgba(242, 255, 0, 1) 100%
+    #1f26ad 30%,
+    #f2ff00 100%
   );
 }
 
@@ -42,20 +42,25 @@ body {
 }
 
 .topline {
-  height: auto;
+  /* height: auto; */
   width: 100%;
+
 }
 
 #title {
   padding: 30px;
+  /* padding-bottom: 0;
+  margin-bottom: 0; */
   font-size: 3em;
   background: linear-gradient(
     122deg,
     rgba(30, 38, 172, 1) 30%,
     rgba(242, 255, 0, 1) 100%
   );
+ 
 
   font-family: "Martel", serif;
+  margin-block-end: 0em;
 }
 
 #BF-band-logo {
@@ -63,10 +68,53 @@ body {
   padding-right: 1rem;
 }
 
-nav {
-  text-align: center;
-  width: 100%;
+
+
+.burgerIcon, .closeBurger{
+  font-size: 2em; 
+  /* display: inline-block; */
 }
+
+#burgerIcon, #closeBurger{
+  background: linear-gradient(
+    122deg,
+    rgba(30, 38, 172, 1) 80%,
+    rgba(242, 255, 0, 1) 100%
+  );
+;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.open{
+  display: block;
+}
+
+.closed{
+  display: none;
+}
+
+#burger-menu {
+  display: none;
+  text-align: right;
+  padding: 0.5em 1em;
+  width: 100%;
+  
+}
+#desktop-menu {
+  text-align: center;
+  padding: 1em 1em 0 1em;
+  width: 100%;
+  
+}
+
+#menuLinks{
+  margin: 1em auto 0 ;
+  padding: 0;
+}
+
 
 nav ul {
   display: inline-flex;
@@ -113,6 +161,7 @@ h4 {
 
 #middle-area {
   background-color: #3f3f3f;
+  padding-top: 1em;
 }
 
 #band-history {
@@ -506,6 +555,13 @@ h2 {
 @media (max-width: 992px) {
 }
 @media (max-width: 768px) {
+
+  #desktop-menu{
+    display: none;
+  }
+  #burger-menu{
+    display: block;
+  }
   #contact-middle-area {
     text-align: center;
     max-width: 100%;

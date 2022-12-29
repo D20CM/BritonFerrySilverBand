@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="A summary of the history and current activities of Briton Ferry Silver Band.">
     <title>Briton Ferry Silver Band - Homepage</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -17,6 +18,7 @@
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/bf0c11a4ee.js" crossorigin="anonymous"></script>
+   
     <link rel="stylesheet" type="text/css" href="/css/styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Martel:wght@700&display=swap" rel="stylesheet">
@@ -33,7 +35,8 @@
                     <h1 id="title" class="text-center"> <img src="img/Band Logo small.png" alt="Briton Ferry Band Logo"
                             class="img-fluid" id="BF-band-logo">Briton Ferry Silver Band</h1>
                 </span>
-                <nav>
+
+                <nav id="desktop-menu">
                     <ul>
                         <li><a href="#band-history">About the band</a></li>
                         <li><a href="performances.html">Performances</a></li>
@@ -42,6 +45,22 @@
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
+
+                <nav id="burger-menu">
+                   
+                    <i class="fa fa-solid fa-bars burgerIcon" id="burgerIcon"></i>
+                    <i class="far fa-window-close closeBurger closed" id="closeBurger"></i>
+              
+                   
+                    <ul id="menuLinks" class="closed">
+                        <li><a href="#band-history">About the band</a></li>
+                        <li><a href="performances.html">Performances</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="players.html">Meet the band</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+
             </div>
 
         </div>
@@ -61,30 +80,30 @@
                 </ul>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="img/BF Band in park1.png">
+                        <img src="img/BF Band in park.webp" alt="Briton Ferry Silver Band playing an outdoor concert at Victoria Gardens, Neath">
                         <!-- <div class="carousel-caption">
                         <h1 class="display-4">Briton Ferry Silver Band</h1>
                     </div> -->
                     </div>
                     <div class="carousel-item">
-                        <img src="img/BF-Band-Polyphonic-Choir-Concert-Small-Group.jpg">
+                        <img src="img/BF-Band-Polyphonic-Choir-Concert-Small-Group.webp" alt="A small group of players from Briton Ferry Silver Band in concert in a church.">
                     </div>
                     <div class="carousel-item">
-                        <img src="img/BF-Band-In-Community-Centre-2.png">
+                        <img src="img/BF-Band-In-Community-Centre-2.webp" alt="Briton Ferry Silver Band on stage at Briton Ferry Community Centre.">
                     </div>
                     <div class="carousel-item">
-                        <img src="img/BF-Band-On-TV1.jpg">
+                        <img src="img/BF-Band-On-TV1.webp" alt="Briton Ferry Silver Band on a brightly lit blue stage at the National Eisteddfod contest.">
                     </div>
                 </div>
             </div>
 
             <div id="buttons" class="text-center">
                 <span id="santa-buttons">
-                <img id="welsh-flag" src="img/wales-flag-icon-32.png">
+                <img id="welsh-flag" src="img/wales-flag-icon-32.png" alt="a small Welsh flag">
                 <a href="performances.html">
                 <button id="button1" type="button" class="btn btn-info">Watch our St David's Day 2021 video series!</button>
             </a>
-            <img id="welsh-flag" src="img/wales-flag-icon-32.png">
+            <img id="welsh-flag" src="img/wales-flag-icon-32.png" alt="a small Welsh flag">
         </span>
             </div>
         </div>
@@ -94,7 +113,7 @@
         </div> -->
 
     <br>
-    <h3 id="history-subtitle">110 years of music making in Briton Ferry</h3>
+    <h2 id="history-subtitle">110 years of music making in Briton Ferry</h2>
     <div id="band-history">
         
 
@@ -119,8 +138,8 @@
             <div class="row text-center">
                 <div class="col-md-4">
                     <hr class="light">
-                    <h5 class="find-us-here"><img id="footerLogo" src="img/Band Logo small.png"
-                            alt="Briton Ferry Band Logo">Find Us Here...</h5>
+                    <h3 class="find-us-here"><img id="footerLogo" src="img/Band Logo small.png"
+                            alt="Briton Ferry Band Logo">Find Us Here...</h3>
                     <hr class="light">
                     <p>info@britonferrysilverband.org.uk</p>
                     <p>07890 317624</p>
@@ -128,34 +147,34 @@
                 </div>
                 <div class="col-md-4">
                     <hr class="light">
-                    <h5>Rehearsal Times</h5>
+                    <h3>Rehearsal Times</h3>
                     <hr class="light">
                     <p>Sundays 19:30 - 21:30</p>
                     <p>Thursdays 19:30 - 21:30</p>
                 </div>
                 <div class="col-md-4">
                     <hr class="light">
-                    <h5>Social Media Links</h5>
+                    <h3>Social Media Links</h3>
                     <hr class="light">
                     <p id="socials">
-                        <a id="facebook-share" href="https://www.facebook.com/groups/13923760124"><i class="fab fa-facebook-square"></i></a>
-                        <a id="tweet-quote" href="https://twitter.com/BritonFerryBand"><i class="fab fa-twitter-square"></i></a>
-                        <a id="insta" href="https://www.instagram.com/britonferrysilverband"><i class="fab fa-instagram-square"></i></a>
-                        <a id="youtube" href="https://www.youtube.com/channel/UC5BYoPQGzMFsnlMU925-e4A"><i class="fab fa-youtube-square"></i></a>
+                        <a id="facebook-share" href="https://www.facebook.com/groups/13923760124" alt="Briton Ferry Band on Facebook"><i class="fab fa-facebook-square"></i></a>
+                        <a id="tweet-quote" href="https://twitter.com/BritonFerryBand" alt="Briton Ferry Band on Twitter"><i class="fab fa-twitter-square"></i></a>
+                        <a id="insta" href="https://www.instagram.com/britonferrysilverband" alt="Briton Ferry Band on Instagram"><i class="fab fa-instagram-square"></i></a>
+                        <a id="youtube" href="https://www.youtube.com/channel/UC5BYoPQGzMFsnlMU925-e4A" alt="Briton Ferry Band on YouTube"><i class="fab fa-youtube-square"></i></a>
                     </p>
                     <p>Like & Follow Us Here!</p>
                 </div>
 
                 <div class="col-md-12" id="bottom-line">
                     <!-- <hr class="light100"> -->
-                    <h5 id="copyright" class="text-center">&copy; Briton Ferry Silver Band 2020</h5>
+                    <h4 id="copyright" class="text-center">&copy; Briton Ferry Silver Band 2020</h4>
                 </div>
             </div>
         </div>
     </footer>
 
 
-
+    <script src="./js/scripts.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
