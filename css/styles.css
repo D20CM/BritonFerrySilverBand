@@ -84,6 +84,12 @@ body {
   display: none;
 }
 
+nav {
+  text-align: center;
+  padding: 1em 1em 0 1em;
+  width: 100%;
+}
+
 #burger-menu {
   display: none;
   text-align: right;
