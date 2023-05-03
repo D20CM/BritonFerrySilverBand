@@ -94,7 +94,9 @@ nav {
   display: none;
   text-align: right;
   padding: 0.5em 1em;
+  /* margin-bottom: 2em; */
   width: 100%;
+  /* background-color: #302f2f; */
 }
 #desktop-menu {
   text-align: center;
@@ -102,9 +104,25 @@ nav {
   width: 100%;
 }
 
+.menu-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.menu-label {
+  margin-right: 1em;
+  color: rgba(242, 255, 0, 1);
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
 #menuLinks {
   margin: 1em auto 0;
-  padding: 0;
+  padding: 1em;
+  text-transform: uppercase;
+  font-weight: 400;
+  background-color: #302f2f;
 }
 
 nav ul {
@@ -353,10 +371,10 @@ h4 {
 }
 
 .player-box:hover {
-  transform: scale(1.8);
+  transform: scale(2);
 }
 .player-picture {
-  width: 80%;
+  width: 90%;
   margin: auto;
 }
 
