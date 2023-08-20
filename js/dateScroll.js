@@ -38,4 +38,4 @@ function dateScroll() {
   targetGig[0].scrollIntoView({ behavior: "smooth" });
 }
 
-setTimeout(dateScroll, 2000);
+setTimeout(dateScroll, 3000);
