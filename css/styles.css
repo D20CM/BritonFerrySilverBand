@@ -434,7 +434,7 @@ h4 {
 /* gallery */
 
 #gallery-text {
-  margin: 0;
+  margin: 0 2em;
 }
 #media-gallery {
   margin: auto;
@@ -833,7 +833,7 @@ h2 {
   /* gallery------------------ */
 
   #gallery-text {
-    margin: 0;
+    margin: 0 2em;
   }
   #media-gallery {
     gap: 1em;
