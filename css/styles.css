@@ -186,7 +186,8 @@ h4 {
 #blog-text,
 #placeholder-text,
 .st-davids-text,
-#results-text {
+#results-text,
+#gallery-text {
   margin: 0 20vw 30px 20vw;
 }
 
@@ -197,37 +198,18 @@ h4 {
 
 #players-text,
 #performances-text,
-#carol-concert-text,
 #contact-text,
 #blog-text,
-.st-davids-text,
-#results-text {
+#results-text,
+#gallery-text {
   font-size: small;
   text-align: center;
 }
 
 #performances-text,
-#results-text {
+#results-text,
+#gallery-text {
   padding-bottom: 20px;
-}
-
-#carol-concert-text,
-.st-davids-text {
-  padding-top: 30px;
-}
-
-#carol-concert-video,
-.st-davids-video {
-  text-align: center;
-  padding-bottom: 20px;
-  width: 100%;
-  margin: auto;
-  background: linear-gradient(
-    122deg,
-    rgba(30, 38, 172, 1) 30%,
-    rgba(242, 255, 0, 1) 100%
-  );
-  padding: 30px;
 }
 
 #hero-image {
@@ -449,6 +431,61 @@ h4 {
   margin: 20px auto;
 }
 
+/* gallery */
+
+#gallery-text {
+  margin: 0 2em;
+}
+#media-gallery {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2em;
+  padding: 2em 20vw;
+  background: linear-gradient(
+    122deg,
+    rgba(30, 38, 172, 1) 30%,
+    rgba(242, 255, 0, 1) 100%
+  );
+  color: #ffffff;
+  margin-top: 0;
+}
+
+#media-gallery h3 {
+  font-size: 32px;
+}
+
+.video-description {
+  padding-top: 2em;
+  text-align: center;
+  font-size: medium;
+}
+
+.video-description p {
+}
+
+#carol-concert-text,
+.st-davids-text {
+  /* padding-top: 30px; */
+  margin: 0 2em;
+}
+
+#carol-concert-video,
+.st-davids-video {
+  text-align: center;
+  /* padding-bottom: 20px; */
+  width: 100%;
+  margin: auto;
+  background: linear-gradient(
+    122deg,
+    rgba(30, 38, 172, 1) 30%,
+    rgba(242, 255, 0, 1) 100%
+  );
+  /* padding: 30px; */
+}
+
+/* ------------------- */
+
 footer {
   background-color: #3f3f3f;
   color: #d5d5d5;
@@ -517,7 +554,11 @@ h2 {
   max-width: 100%;
   overflow: hidden;
 }
+#twitter-feed {
+  text-align: center;
+}
 .twitter-timeline {
+  margin: auto;
   width: 100%;
   /* min-width: 180px; */
 }
@@ -788,6 +829,31 @@ h2 {
   #copyright {
     font-size: x-small;
   }
+
+  /* gallery------------------ */
+
+  #gallery-text {
+    margin: 0 2em;
+  }
+  #media-gallery {
+    gap: 1em;
+    padding: 2em 1em;
+  }
+
+  #media-gallery h3 {
+    font-size: 1.5em;
+  }
+
+  .video-description {
+    padding-top: 2em;
+    text-align: center;
+    font-size: small;
+  }
+
+  .video-description p {
+  }
+
+  /* ------------------- */
 }
 
 @media (max-width: 320px) {
