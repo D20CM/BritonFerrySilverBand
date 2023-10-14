@@ -405,6 +405,9 @@ h4 {
 }
 
 .blog-image {
+  display: block;
+  margin: auto;
+  max-height: 600px;
   max-width: 100%;
 }
 #social-banner {
