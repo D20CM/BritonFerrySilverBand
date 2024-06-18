@@ -292,6 +292,11 @@ h4 {
   font-size: 0.9em;
 }
 
+.cancelled {
+  color: red;
+  font-weight: 800;
+}
+
 #players-gallery {
   background-color: #3f3f3f;
 }
