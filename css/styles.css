@@ -415,6 +415,15 @@ h4 {
   max-height: 600px;
   max-width: 100%;
 }
+
+.blog-image-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.blog-image-container > .blog-image {
+  height: 100%;
+}
 #social-banner {
   background: linear-gradient(
     122deg,
