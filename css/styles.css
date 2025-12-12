@@ -418,7 +418,9 @@ h4 {
 
 .blog-image-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  width: 80%;
+  margin: auto;
 }
 
 .blog-image-container > .blog-image {
@@ -753,6 +755,10 @@ h2 {
   #blog-middle-area h3 {
     font-size: medium;
     padding-top: 10px;
+  }
+
+  .blog-image-container {
+    width: 100%;
   }
 
   .large-social {
