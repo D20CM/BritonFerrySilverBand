@@ -565,7 +565,7 @@ h2 {
 }
 #social-feeds {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   background-color: #3f3f3f;
   grid-column-gap: 3em;
@@ -583,10 +583,16 @@ h2 {
 }
 
 #fb-inner,
-#fb-feed {
+#fb-feed,
+.fb-page {
+  height: 100%;
   width: 100%;
   border-radius: 5px;
 }
+
+/* .fb-page {
+  width: 100%;
+} */
 
 #insta-feed {
   width: 100%;
@@ -892,7 +898,9 @@ h2 {
 .carousel-item {
   transition: -webkit-transform 0.5s ease;
   transition: transform 0.5s ease;
-  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  transition:
+    transform 0.5s ease,
+    -webkit-transform 0.5s ease;
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
 }
